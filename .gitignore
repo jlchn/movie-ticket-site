@@ -3,3 +3,5 @@
 targets/
 consumer/target/
 provider/target/
+consumer/*.iml
+provider/*.iml
