@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class StartConsumer {
 
-    @Reference(url = "dubbo://localhost:20880")
+    @Reference
     private ServiceAPI serviceAPI;
     public void sendMessage(String message) {
         System.out.println(serviceAPI.sendMessage(message));
