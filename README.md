@@ -12,3 +12,12 @@ mv zoo-sample.cfg zoo.cfg
 cd ../bin
 ./zkServer.sh start
 ```
+
+### install mysql
+
+```
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installation
+
+```
